@@ -20,6 +20,7 @@ button {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 30px;
+  height: 100%;
 }
 
 header#main-header {
@@ -27,6 +28,7 @@ header#main-header {
   background-color: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
   position: relative;
+  text-align: center;
   z-index: 1;
 }
 
@@ -103,4 +105,10 @@ div.banner {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+div.bar {
+  height: 59px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
 }
