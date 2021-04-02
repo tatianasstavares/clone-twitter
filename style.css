@@ -160,3 +160,25 @@ div.bar .content ul li strong {
 div.bar .content ul li.active strong {
   color: #3bb9e3;
 }
+
+div.bar .content .actions {
+  display: flex;
+  align-items: center;
+}
+
+div.bar .content .actions button {
+  height: 34px;
+  background: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 90px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #3bb9e3;
+  border: 1px solid;
+  border-radius: 16px;
+  margin-right: 20px;
+}
