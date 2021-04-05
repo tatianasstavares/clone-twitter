@@ -290,3 +290,50 @@ div.wrapper-content aside.profile .images ul li {
   margin-right: 5px;
   margin: 0px 5px 5px 0px;
 }
+
+div.wrapper-content .timeline {
+  flex: 1;
+}
+
+div.wrapper-content aside.widgets {
+  width: 290px;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.widgets ul {
+  list-style: none;
+}
+
+div.wrapper-content aside.widgets .widget {
+  background: #fff;
+  padding: 15px;
+}
+
+div.wrapper-content aside.widgets .widget .title {
+  display: flex;
+  align-items: baseline;
+}
+div.wrapper-content aside.widgets .widget .title strong {
+  font-size: 18px;
+  color: #1f2226;
+}
+
+div.wrapper-content aside.widgets .widget .title a {
+  color: #3bb9e3;
+  font-size: 12px;
+  text-decoration: none;
+  position: relative;
+  padding-left: 10px;
+}
+div.wrapper-content aside.widgets .widget .title a::before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: absolute;
+  left: 2px;
+  top: 6px;
+  background: #3bb9e3;
+}
